@@ -1,0 +1,153 @@
+
+body{
+}
+.w-card-home{
+  width: 99% !important;
+}
+.w-card-products{
+  width: 99% !important;
+}
+.w-sidebar{
+  width: 30% !important;
+}
+.w-products{
+  width: 100% !important;
+}
+.sign-width{
+  width: 100% !important;
+}
+.bg-lblue{
+  background: #eaf1fc;
+}
+.text-lblue{
+  color: #b5d0ff;
+}
+.blue-border{
+  border: 2px solid #007bff;
+}
+.nav-link{
+  color: #fff !important;
+}
+.nav-link:hover, .btn-categories:hover{
+  text-decoration: underline;
+}
+
+.search-icon{
+  color: #007bff;
+  position: absolute;
+  padding-left: 1rem;
+}
+.btn-categories{
+  border-radius: 0;
+  text-transform: uppercase;
+  background: #007bff;
+  color: #fff !important;
+  padding-left: 0;
+}
+.search-bar::placeholder{
+  color:  #007bff;
+}
+.fa-chevron-down{
+  font-size: 0.7rem;
+}
+.dropdown-menu{
+  margin-top: 0.5rem;
+}
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+.dropdown-item{
+  color: #669dff;
+  text-transform: uppercase;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #669dff;
+  text-decoration: underline;
+}
+.card{
+  border: 1.5px solid #007bff;
+  border-radius: 0;
+}
+.search-bar{
+  padding-left: 2.5rem;
+}
+.footer-list, .list-sidebar{
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-list a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer-list a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+.font-store{
+  font-size: 2rem;
+}
+.btn-dark{
+  width: 10rem;
+}
+.btn-link{
+  color: #fff;
+}
+.btn-link:hover{
+  color: #dee8f9;
+}
+
+
+@media (min-width:768px){
+  .w-card-home{
+    width: 33% !important;
+  }
+  .w-card-products{
+    width: 48.5% !important;
+  }
+  .sign-width{
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 992px){
+  .btn-categories{
+    border-radius: 0.25rem 0 0 0.25rem;
+    background: #dee8f9 !important;
+    color: #007bff !important;
+    text-transform: capitalize !important;
+    padding-left: 1rem;
+  }
+  .search-bar{
+    border-radius: 0 0.25rem 0.25rem 0;
+    padding-left: 2.5rem;
+  }
+  .search-icon-lg{
+    color: #007bff;
+    position: absolute;
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+  }
+  .w-card-products{
+    width: 32% !important;
+  }
+  .w-products{
+    width: 70% !important;
+  }
+  .sign-width{
+    width: 35% !important;
+  }
+}
+@media (min-width: 1200px){
+  .w-card-products{
+    width: 24% !important;
+  }
+  .w-sidebar{
+    width: 20% !important;
+  }
+  .w-products{
+    width: 80% !important;
+  }
+  .sign-width{
+    width: 25% !important;
+  }
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign In | Gift Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+  </head>
+  <body>
+    <header id="header" class="sticky-top">
+      <nav id="nav-secondary" class="navbar navbar-expand navbar-light bg-white">
+        <div class="container-fluid px-md-3">
+          <div class="ml-auto">
+            <a href="#" class="mx-3 font-weight-bold">HELP</a>
+            <a href="#" class="font-weight-bold">SIGN IN</a>
+          </div>
+        </div>
+      </nav>
+
+      <nav id="nav-primary" class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><h3 class="font-weight-bold mb-0">Gift Shop</h3></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <form class="form-inline my-2 my-lg-0 position-relative d-lg-none">
+              <span class="search-icon"><i class="fas fa-search"></i></span>
+              <input class="form-control mr-sm-2 search-bar" type="search" placeholder="Search for products..."aria-label="Search">
+            </form>
+            <button class="btn dropdown ml-lg-3 text-primary btn-categories" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Categories <i class="fas fa-chevron-down"></i>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Book Flights & Packages</a>
+                <a class="dropdown-item" href="#">Accomodation & Travel</a>
+                <a class="dropdown-item" href="#">Books, Magazines & Stationery</a>
+                <a class="dropdown-item" href="#">Electronics</a>
+                <a class="dropdown-item" href="#">Events & Activities</a>
+                <a class="dropdown-item" href="#">Fashion & Accesories</a>
+                <a class="dropdown-item" href="#">Food & Drink</a>
+                <a class="dropdown-item" href="#">Health & Beauty</a>
+                <a class="dropdown-item" href="#">Home Appliances</a>
+                <a class="dropdown-item" href="#">Home & Living</a>
+                <a class="dropdown-item" href="#">Music, Movies & TV Shows</a>
+                <a class="dropdown-item" href="#">Sport, Fitness & Outdoors</a>
+                <a class="dropdown-item" href="#">Tools, Gardening & Automotive</a>
+                <a class="dropdown-item" href="#">Toy & Baby</a>
+                <a class="dropdown-item" href="#">Vouchers, Gift Cards & Conversions</a>
+              </div>
+            </button>
+            <form class="form-inline my-2 my-lg-0 position-relative d-none d-lg-block">
+              <span class="search-icon-lg"><i class="fas fa-search"></i></span>
+              <input class="form-control mr-sm-2 search-bar" type="search" placeholder="Search for products..."aria-label="Search">
+            </form>
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link mr-3" href="spend-points.html">SPEND POINTS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mr-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  OFFERS <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Instant Rewards</a>
+                  <a class="dropdown-item" href="#">New Rewards</a>
+                  <a class="dropdown-item" href="#">Latest Details</a>
+                  <a class="dropdown-item" href="#">Pickup today</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mr-3" href="#">LEARN</a>
+              </li>
+            </ul>
+            <a href="sign-up.html" class="btn btn-outline-light">SIGN UP</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container-fluid py-5">
+      <div class="card mx-auto px-3 text-primary sign-width">
+          <h3 class="card-title text-center mt-2 mb-4">Sign In</h3>
+          <form action="#" method="post" class="mb-3">
+            <div class="form-group">
+              <label for="u-email"><small class="text-uppercase">Email or Supermarket card number</small></label>
+              <input type="text" class="form-control" id="u-email">
+            </div>
+            <div class="form-group">
+              <label for="u-password"><small class="text-uppercase">Password</small></label>
+              <input type="password" class="form-control" id="u-password">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+           <div class="text-center">
+             <a href="#" class=""><small>Forgot Password?</small></a>
+           </div>
+          </form>
+          <div class="text-center mb-3">
+            New user? <a href="sign-up.html"><u>Register here</u></a>
+          </div>
+          <div>
+            <p class="mb-0">Need help?</p>
+            <p>Call Us at 9999 876 9876</p>
+          </div>
+    </section>
+
+    <footer id="footer" class="container-fluid bg-primary py-5">
+      <div class="row mx-md-3">
+        <div class="col-md-3 col-lg-2">
+          <ul class="footer-list">
+            <li><h6 class="font-weight-bold text-uppercase text-lblue mb-3">Contact Us</h6></li>
+            <li><a href="#">Help (FAQs)</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms & Privacy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-lg-2">
+          <ul class="footer-list">
+            <li><h6 class="font-weight-bold text-uppercase text-lblue mb-3">Spend Points</h6></li>
+            <li><a href="#">Convert Points</a></li>
+            <li><a href="#">Getting a Reward</a></li>
+            <li><a href="#">Points for Purpose</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-lg-2">
+          <ul class="footer-list">
+            <li><h6 class="font-weight-bold text-uppercase text-lblue mb-3">Offers</h6></li>
+            <li><a href="#">New Rewards</a></li>
+            <li><a href="#">Latest Deals</a></li>
+            <li><a href="#">Pick Up Today</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-lg-2">
+          <ul class="footer-list">
+            <li><h6 class="font-weight-bold text-uppercase text-lblue mb-3">My Accounts</h6></li>
+            <li><a href="#">My Profile</a></li>
+            <li><a href="#">Update Contact Details</a></li>
+            <li><a href="#">Notification Preferences</a></li>
+            <li><a href="#">Points History</a></li>
+            <li><a href="#">My Recent Rewards</a></li>
+            <li><a href="#">Wishlist</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h6 class="font-weight-bold text-uppercase text-lblue mb-3">Get The App</h6>
+          <button type="button" class="btn btn-dark text-left mb-2">
+            <span class="media align-items-center">
+              <i class="fab fa-apple font-store mr-2"></i>
+              <span class="media-body">
+                <small class="d-block">Download on the</small>
+                <strong>App Store</strong>
+              </span>
+            </span>
+          </button>
+          <button type="button" class="btn btn-dark text-left mb-2">
+            <span class="media align-items-center">
+              <i class="fab fa-google-play font-store mr-2"></i>
+              <span class="media-body">
+                <small class="d-block">Get it on</small>
+                <strong>Google Play</strong>
+              </span>
+            </span>
+          </button>
+          <div class="d-inline-block d-lg-none ml-md-3">
+            <a href="#" class="btn btn-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="btn btn-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="btn btn-link"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="mb-xl-5 pb-xl-5 d-none d-lg-flex flex-column flex-xl-row">
+            <a href="#" class="btn btn-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="btn btn-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="btn btn-link"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <div class="mx-lg-auto d-none d-xl-block">
+            <span class="text-white text-center">&copy; Git Shop 2018</span>
+          </div>
+        </div>
+        <div class="mx-auto d-block d-xl-none">
+          <span class="text-white text-center">&copy; Git Shop 2018</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
